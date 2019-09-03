@@ -1,0 +1,22 @@
+{
+  "name": "onefolder-token-generator",
+  "version": "0.1.0",
+  "description": "Get onedrive's token for OneFolder",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "linepro6",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.16.2",
+    "querystring": "^0.2.0"
+  }
+}
